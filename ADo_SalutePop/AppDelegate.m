@@ -7,17 +7,70 @@
 //
 
 #import "AppDelegate.h"
+#import "POP.h"
 
+
+//调试专用随机色
+#define kRandomColor [UIColor colorWithRed:arc4random_uniform(256) / 255.0 green:arc4random_uniform(256) / 255.0 blue:arc4random_uniform(256) / 255.0 alpha:1]
+
+//屏幕宽度
+#define kScreenWidth ([UIScreen mainScreen].bounds.size.width)
+//屏幕高度
+#define kScreenHeight ([UIScreen mainScreen].bounds.size.height)
 @interface AppDelegate ()
-
+@property (nonatomic,weak)UIView *backView;
 @end
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [self.window makeKeyAndVisible];
+//    UIView *backView = [[UIView alloc] initWithFrame:self.window.bounds];
+//    backView.backgroundColor = [UIColor whiteColor];
+//    [self.window addSubview:backView];
+//    [self.window bringSubviewToFront:backView];
+//    self.backView = backView;
+//    [self doSomeAnimations];
     return YES;
+}
+
+- (void)doSomeAnimations
+{
+    /**
+     kPOPLayerOpacity
+     */
+    float imageW = kScreenWidth / 4;
+    
+    for (int i = 0; i < 4; i ++) {
+        UIImageView *luffy = [[UIImageView alloc] init];
+        luffy.image = [UIImage imageNamed:@"luffy.jpg"];
+        luffy.frame = CGRectMake(i * imageW, 100, imageW, imageW);
+        [self.backView addSubview:luffy];
+        luffy.alpha = 0;
+        [self performSelector:@selector(actionAndSleep:) withObject:luffy afterDelay:i * 0.5];
+    }
+    
+
+   
+}
+
+
+- (void)actionAndSleep:(UIImageView *)luffy
+{
+    POPBasicAnimation *alpha = [POPBasicAnimation animationWithPropertyNamed:kPOPViewAlpha];
+    alpha.fromValue = 0;
+    alpha.toValue = @1;
+    alpha.duration = 0.5;
+   alpha.completionBlock = ^(POPAnimation *anim, BOOL finished)
+    {
+        if (luffy == self.backView.subviews[3]) {
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                [self.backView removeFromSuperview];
+            });
+        }
+    };
+    [luffy pop_addAnimation:alpha forKey:nil];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

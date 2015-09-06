@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DoorController.h
 //  ADo_SalutePop
 //
 //  Created by 杜 维欣 on 15/8/21.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface DoorController : UIViewController
 
 @end
-

@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		885BE00D4DFF2BB3B532D60D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0330335A5ACFC7DAC0F4961F /* libPods.a */; };
+		EB0DF5F81B8D58C1008959EC /* boat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB0DF5F71B8D58C1008959EC /* boat.jpg */; };
+		EB6C2BF31B8EAC7600392B1B /* life.png in Resources */ = {isa = PBXBuildFile; fileRef = EB6C2BF21B8EAC7600392B1B /* life.png */; };
 		EB6EB5841B8721FF00986AEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6EB5831B8721FF00986AEC /* main.m */; };
 		EB6EB5871B8721FF00986AEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6EB5861B8721FF00986AEC /* AppDelegate.m */; };
-		EB6EB58A1B8721FF00986AEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6EB5891B8721FF00986AEC /* ViewController.m */; };
 		EB6EB58D1B8721FF00986AEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB6EB58B1B8721FF00986AEC /* Main.storyboard */; };
 		EB6EB58F1B8721FF00986AEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6EB58E1B8721FF00986AEC /* Images.xcassets */; };
 		EB6EB5921B8721FF00986AEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB6EB5901B8721FF00986AEC /* LaunchScreen.xib */; };
 		EB6EB59E1B8721FF00986AEC /* ADo_SalutePopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6EB59D1B8721FF00986AEC /* ADo_SalutePopTests.m */; };
+		EB6EB5A91B872BE600986AEC /* luffy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB6EB5A81B872BE600986AEC /* luffy.jpg */; };
+		EB6EB5AC1B87303F00986AEC /* DoorController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6EB5AB1B87303F00986AEC /* DoorController.m */; };
+		EB6F7F541B8AF52E003FC787 /* ADo_SalutePresentTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6F7F531B8AF52E003FC787 /* ADo_SalutePresentTransitioning.m */; };
+		EB6F7F571B8AFAAF003FC787 /* GoInController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6F7F561B8AFAAF003FC787 /* GoInController.m */; };
+		EB729B801B8DC055004D2A1E /* ADo_LoopFoldView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB729B7F1B8DC055004D2A1E /* ADo_LoopFoldView.m */; };
+		EBEB1CDE1B8C11A70054A028 /* ADo_SaluteDismissTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEB1CDD1B8C11A70054A028 /* ADo_SaluteDismissTransitioning.m */; };
+		EBEB1CE41B8C717C0054A028 /* ADo_FoldImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEB1CE31B8C717C0054A028 /* ADo_FoldImage.m */; };
+		EBEB1CE71B8C73410054A028 /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEB1CE61B8C73410054A028 /* UIImage+Blur.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +37,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0330335A5ACFC7DAC0F4961F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		337AFE5B93DFA9309B038381 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		51FE6DBEE24E479D53E8EC16 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		EB0DF5F71B8D58C1008959EC /* boat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boat.jpg; sourceTree = "<group>"; };
+		EB6C2BF21B8EAC7600392B1B /* life.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = life.png; sourceTree = "<group>"; };
 		EB6EB57E1B8721FF00986AEC /* ADo_SalutePop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADo_SalutePop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB6EB5821B8721FF00986AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB6EB5831B8721FF00986AEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EB6EB5851B8721FF00986AEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EB6EB5861B8721FF00986AEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EB6EB5881B8721FF00986AEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EB6EB5891B8721FF00986AEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EB6EB58C1B8721FF00986AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB6EB58E1B8721FF00986AEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EB6EB5911B8721FF00986AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EB6EB5971B8721FF00986AEC /* ADo_SalutePopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADo_SalutePopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB6EB59C1B8721FF00986AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB6EB59D1B8721FF00986AEC /* ADo_SalutePopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADo_SalutePopTests.m; sourceTree = "<group>"; };
+		EB6EB5A81B872BE600986AEC /* luffy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = luffy.jpg; sourceTree = "<group>"; };
+		EB6EB5AA1B87303F00986AEC /* DoorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoorController.h; sourceTree = "<group>"; };
+		EB6EB5AB1B87303F00986AEC /* DoorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoorController.m; sourceTree = "<group>"; };
+		EB6F7F521B8AF52E003FC787 /* ADo_SalutePresentTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADo_SalutePresentTransitioning.h; sourceTree = "<group>"; };
+		EB6F7F531B8AF52E003FC787 /* ADo_SalutePresentTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADo_SalutePresentTransitioning.m; sourceTree = "<group>"; };
+		EB6F7F551B8AFAAF003FC787 /* GoInController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoInController.h; sourceTree = "<group>"; };
+		EB6F7F561B8AFAAF003FC787 /* GoInController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoInController.m; sourceTree = "<group>"; };
+		EB729B7E1B8DC055004D2A1E /* ADo_LoopFoldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADo_LoopFoldView.h; sourceTree = "<group>"; };
+		EB729B7F1B8DC055004D2A1E /* ADo_LoopFoldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADo_LoopFoldView.m; sourceTree = "<group>"; };
+		EBEB1CDC1B8C11A70054A028 /* ADo_SaluteDismissTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADo_SaluteDismissTransitioning.h; sourceTree = "<group>"; };
+		EBEB1CDD1B8C11A70054A028 /* ADo_SaluteDismissTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADo_SaluteDismissTransitioning.m; sourceTree = "<group>"; };
+		EBEB1CE21B8C717C0054A028 /* ADo_FoldImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADo_FoldImage.h; sourceTree = "<group>"; };
+		EBEB1CE31B8C717C0054A028 /* ADo_FoldImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADo_FoldImage.m; sourceTree = "<group>"; };
+		EBEB1CE51B8C73410054A028 /* UIImage+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
+		EBEB1CE61B8C73410054A028 /* UIImage+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				885BE00D4DFF2BB3B532D60D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +89,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D2C74657E3D3D41AFAE47A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0330335A5ACFC7DAC0F4961F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D93C8368DB31FE10998FD48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51FE6DBEE24E479D53E8EC16 /* Pods.debug.xcconfig */,
+				337AFE5B93DFA9309B038381 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EB6EB5751B8721FE00986AEC = {
 			isa = PBXGroup;
 			children = (
 				EB6EB5801B8721FF00986AEC /* ADo_SalutePop */,
 				EB6EB59A1B8721FF00986AEC /* ADo_SalutePopTests */,
 				EB6EB57F1B8721FF00986AEC /* Products */,
+				8D93C8368DB31FE10998FD48 /* Pods */,
+				1D2C74657E3D3D41AFAE47A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,13 +129,24 @@
 		EB6EB5801B8721FF00986AEC /* ADo_SalutePop */ = {
 			isa = PBXGroup;
 			children = (
-				EB6EB5851B8721FF00986AEC /* AppDelegate.h */,
-				EB6EB5861B8721FF00986AEC /* AppDelegate.m */,
-				EB6EB5881B8721FF00986AEC /* ViewController.h */,
-				EB6EB5891B8721FF00986AEC /* ViewController.m */,
+				EB6EB5A71B87244400986AEC /* Other */,
 				EB6EB58B1B8721FF00986AEC /* Main.storyboard */,
-				EB6EB58E1B8721FF00986AEC /* Images.xcassets */,
-				EB6EB5901B8721FF00986AEC /* LaunchScreen.xib */,
+				EB6EB5AA1B87303F00986AEC /* DoorController.h */,
+				EB6EB5AB1B87303F00986AEC /* DoorController.m */,
+				EB6F7F551B8AFAAF003FC787 /* GoInController.h */,
+				EB6F7F561B8AFAAF003FC787 /* GoInController.m */,
+				EB6F7F521B8AF52E003FC787 /* ADo_SalutePresentTransitioning.h */,
+				EB6F7F531B8AF52E003FC787 /* ADo_SalutePresentTransitioning.m */,
+				EBEB1CDC1B8C11A70054A028 /* ADo_SaluteDismissTransitioning.h */,
+				EBEB1CDD1B8C11A70054A028 /* ADo_SaluteDismissTransitioning.m */,
+				EBEB1CE21B8C717C0054A028 /* ADo_FoldImage.h */,
+				EBEB1CE31B8C717C0054A028 /* ADo_FoldImage.m */,
+				EB729B7E1B8DC055004D2A1E /* ADo_LoopFoldView.h */,
+				EB729B7F1B8DC055004D2A1E /* ADo_LoopFoldView.m */,
+				EBEB1CE51B8C73410054A028 /* UIImage+Blur.h */,
+				EBEB1CE61B8C73410054A028 /* UIImage+Blur.m */,
+				EB0DF5F71B8D58C1008959EC /* boat.jpg */,
+				EB6C2BF21B8EAC7600392B1B /* life.png */,
 				EB6EB5811B8721FF00986AEC /* Supporting Files */,
 			);
 			path = ADo_SalutePop;
@@ -119,6 +178,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EB6EB5A71B87244400986AEC /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				EB6EB5A81B872BE600986AEC /* luffy.jpg */,
+				EB6EB5901B8721FF00986AEC /* LaunchScreen.xib */,
+				EB6EB58E1B8721FF00986AEC /* Images.xcassets */,
+				EB6EB5851B8721FF00986AEC /* AppDelegate.h */,
+				EB6EB5861B8721FF00986AEC /* AppDelegate.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB6EB5A11B8721FF00986AEC /* Build configuration list for PBXNativeTarget "ADo_SalutePop" */;
 			buildPhases = (
+				17F532A9AFD84DEC1BF06658 /* Check Pods Manifest.lock */,
 				EB6EB57A1B8721FE00986AEC /* Sources */,
 				EB6EB57B1B8721FE00986AEC /* Frameworks */,
 				EB6EB57C1B8721FE00986AEC /* Resources */,
+				27431884A98A843F37A6077D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,8 +273,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB6EB58D1B8721FF00986AEC /* Main.storyboard in Resources */,
+				EB0DF5F81B8D58C1008959EC /* boat.jpg in Resources */,
 				EB6EB5921B8721FF00986AEC /* LaunchScreen.xib in Resources */,
+				EB6EB5A91B872BE600986AEC /* luffy.jpg in Resources */,
 				EB6EB58F1B8721FF00986AEC /* Images.xcassets in Resources */,
+				EB6C2BF31B8EAC7600392B1B /* life.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,13 +290,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17F532A9AFD84DEC1BF06658 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		27431884A98A843F37A6077D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EB6EB57A1B8721FE00986AEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB6EB58A1B8721FF00986AEC /* ViewController.m in Sources */,
+				EBEB1CE41B8C717C0054A028 /* ADo_FoldImage.m in Sources */,
+				EBEB1CDE1B8C11A70054A028 /* ADo_SaluteDismissTransitioning.m in Sources */,
+				EBEB1CE71B8C73410054A028 /* UIImage+Blur.m in Sources */,
+				EB6F7F541B8AF52E003FC787 /* ADo_SalutePresentTransitioning.m in Sources */,
 				EB6EB5871B8721FF00986AEC /* AppDelegate.m in Sources */,
+				EB6EB5AC1B87303F00986AEC /* DoorController.m in Sources */,
+				EB729B801B8DC055004D2A1E /* ADo_LoopFoldView.m in Sources */,
+				EB6F7F571B8AFAAF003FC787 /* GoInController.m in Sources */,
 				EB6EB5841B8721FF00986AEC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,6 +460,7 @@
 		};
 		EB6EB5A21B8721FF00986AEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51FE6DBEE24E479D53E8EC16 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ADo_SalutePop/Info.plist;
@@ -355,6 +471,7 @@
 		};
 		EB6EB5A31B8721FF00986AEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 337AFE5B93DFA9309B038381 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ADo_SalutePop/Info.plist;
@@ -416,6 +533,7 @@
 				EB6EB5A31B8721FF00986AEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB6EB5A41B8721FF00986AEC /* Build configuration list for PBXNativeTarget "ADo_SalutePopTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +542,7 @@
 				EB6EB5A61B8721FF00986AEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
